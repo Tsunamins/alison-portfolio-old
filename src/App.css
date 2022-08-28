@@ -1,38 +1,88 @@
 .App {
   text-align: center;
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(to right, #c5cedb, #45608a);
+  width: 80%;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#intro {
+  margin-top: 100px;
+  margin-bottom: 50px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#feature {
+  width: 30vh;
+  padding: 10px;
+  margin: 5px;
+  border-color: rgb(47, 59, 78);
 }
 
-.App-link {
-  color: #61dafb;
+#feature:hover {
+  background-color: #45608a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h1Size {
+  font-size: 30px;
 }
+
+.inline {
+  display: inline-block;
+}
+
+.thinBorder {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.teal {
+  color: #08FFF3;
+
+}
+
+.boxText {
+  padding: 40px;
+}
+
+.typewriter {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Arial', monospace;
+  letter-spacing: 5px;
+}
+
+.typewriter {
+  animation: animated-text 4s steps(4,end) 1s infinite normal both;
+}
+
+/* text animation */
+@keyframes animated-text{
+  from{width: 0px;}
+  to{width: 80px;}
+}
+
+#bar {
+  padding-top: 25px;
+  height: 50px;
+  background-color: rgb(47, 59, 78);
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
